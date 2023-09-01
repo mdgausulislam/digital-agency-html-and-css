@@ -101,6 +101,7 @@
     grid-template-columns: repeat(2,1fr);
     /* gap: 10px; */
     margin-right: 50px;
+    margin-bottom: 100px;
     
 }
 .service-right-side img{
@@ -112,6 +113,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    /* margin-bottom: 100px; */
 
 }
 .ceo-image{
@@ -195,7 +197,7 @@
    
 }
 .Service-details{
-    margin-top: 50px;
+    margin-top: -20px;
     color: #FFFFFF;
 
   
@@ -208,4 +210,57 @@
 }
 .service-info{
     background-color: black;
+}
+.appointment{
+    margin: 0px 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(245, 44, 44);
+    color: #FFFFFF;
+    height: 120px;
+    border-radius: 20px;
+    margin-top: -60px;
+}
+.phone-call{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.phone-call i{
+   font-size: 30px;
+   padding-left: 20px;
+}
+.phone-call-description{
+    margin-left: 50px;
+}
+.call-title{
+    width: 151px;
+    padding-bottom: 15px;
+}
+.phone-call-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vertical-line2{
+    margin-top: 10px;
+    height: 100px;
+    border: 1px solid red;
+    margin-left: 55px;
+}
+.phone-call-description1{
+    padding-right: 50px;
+    
+}
+.btn-primary4{
+    padding: 15px 35px;
+    font-size: 16px;
+    background-color: rgb(245, 44, 44);
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
 }
