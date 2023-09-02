@@ -56,7 +56,7 @@
     text-align: center;
 }
 
- .banner-title {
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     color: white;
@@ -75,7 +75,7 @@
     margin: auto;
     padding-bottom: 20px;
     /* text-align: center; */
-}  
+}
 
 
 .btn-primary {
@@ -94,91 +94,106 @@
     background-color: #FFFFFF;
     border-radius: 5px;
     border: none;
-} 
+}
 
-.service-right-side{
+.service-right-side {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* gap: 10px; */
     margin-right: 50px;
     margin-bottom: 100px;
-    
+
 }
-.service-right-side img{
-   height: 100px;
-   width: 100px;
-   margin-left: 50px;
+
+.service-right-side img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
 }
-.service-list-left{
+
+.service-list-left {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     /* margin-bottom: 100px; */
 
 }
-.ceo-image{
+
+.ceo-image {
     display: flex;
     align-items: center;
 }
-.director{
+
+.director {
     display: flex;
     justify-content: center;
     align-items: center;
 }
- .service-info{
+
+.service-info {
     background-image: url(../asset/image/footer-bg.png);
     background-repeat: no-repeat;
-    background-size: cover; 
-   
-} 
-.director img{
+    background-size: cover;
+
+}
+
+.director img {
     margin-top: 20px;
     margin-left: 20px;
     border-radius: 100%;
     height: 80px;
     width: 80px;
 }
+
 /* .btn-details{
     margin-right: 600px;
 } */
-.Service-List{
+.Service-List {
     margin-left: 20px;
     padding: 15px 30px;
     border-radius: 50px;
     border: none;
     font-size: 20px;
 }
-.Service-details span{
+
+.Service-details span {
     color: rgb(245, 44, 44);
 }
-.Service-details h1{
+
+.Service-details h1 {
     padding-top: 15px;
     font-size: 35px;
     margin-left: 20px;
     padding-bottom: 15px;
 }
-.Service-details p{
-     margin-left: 20px;
+
+.Service-details p {
+    margin-left: 20px;
     font-size: 18px;
 }
-.Service-details ol{
+
+.Service-details ol {
     padding-top: 15px;
 }
-.Service-details li{
+
+.Service-details li {
     margin-left: 33px;
 }
-.ceo-image p{
+
+.ceo-image p {
     margin-top: 30px;
     font-size: 12px;
     margin-left: 10px;
 }
-.vertical-line{
+
+.vertical-line {
     margin-top: 20px;
     height: 100px;
     border: 1px solid red;
     margin-left: 55px;
 }
-.btn-primary3{
+
+.btn-primary3 {
     padding: 15px 35px;
     font-size: 16px;
     color: rgb(245, 44, 44);
@@ -188,30 +203,35 @@
     margin-top: 20px;
     margin-left: 20px;
 }
-.service-img-01{
+
+.service-img-01 {
     margin-right: 30px;
     margin-top: 10px;
-   
+
     padding: 60px 40px;
     background-color: #FFFFFF;
-   
+
 }
-.Service-details{
+
+.Service-details {
     margin-top: -20px;
     color: #FFFFFF;
 
-  
+
 }
-.service-img-01 p{
+
+.service-img-01 p {
     margin-top: 40px;
     text-align: center;
     font-size: 18px;
     font-weight: 700;
 }
-.service-info{
-    background-color: black;
+
+.service-info {
+    background-color: rgba(0, 0, 0, 1);
 }
-.appointment{
+
+.appointment {
     margin: 0px 150px;
     display: flex;
     justify-content: flex-start;
@@ -222,45 +242,182 @@
     border-radius: 20px;
     margin-top: -60px;
 }
-.phone-call{
+
+.phone-call {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
 }
-.phone-call i{
-   font-size: 30px;
-   padding-left: 20px;
+
+.phone-call i {
+    font-size: 30px;
+    padding-left: 20px;
 }
-.phone-call-description{
+
+.phone-call-description {
     margin-left: 50px;
 }
-.call-title{
+
+.call-title {
     width: 151px;
-    padding-bottom: 15px;
+
 }
-.phone-call-description{
+
+.phone-call-description {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.vertical-line2{
+
+.vertical-line2 {
     margin-top: 10px;
     height: 100px;
     border: 1px solid red;
     margin-left: 55px;
 }
-.phone-call-description1{
+
+.phone-call-description1 {
     padding-right: 50px;
-    
+
 }
-.btn-primary4{
+
+.btn-primary4 {
     padding: 15px 35px;
     font-size: 16px;
-    background-color: rgb(245, 44, 44);
-    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 20px;
     border: none;
-    margin-top: 20px;
+
     margin-left: 20px;
     margin-right: 30px;
+}
+
+.phone-number {
+    font-size: 30px;
+}
+
+.Blog-News-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 70px;
+}
+
+.blog-list1 img {
+    width: 331px;
+    height: 200px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 28px;
+}
+
+.blog-list1 {
+    /* border: 2px solid red; */
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 13px 13px 5px -12px black;
+
+}
+
+.blog-title {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.blog-description {
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.Blog-News {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.Blog-News-title {
+    font-size: 65px;
+    padding-bottom: 20px;
+}
+.Blog-News-description{
+    font-size: 22px;
+    text-align: center;
+}
+.Blog-News-title span {
+    color: rgb(245, 44, 44);
+}
+.footer-list{
+    display: grid;
+    grid-template-columns: 250px 150px 150px 300px;
+    gap: 80px;
+    margin: 10px 200px; 
+    color: #FFFFFF;
+}
+.footer{
+    background-image: url(../asset/image/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 300px;
+}
+.logo-agency{
+    padding-top: 80px;
+}
+.logo-agency-description{
+    padding-top: 15px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.logo-agency i{
+    font-size: 30px;
+    gap: 10px;
+}
+.Useful-Links{
+    padding-top: 80px;
+
+}
+.links-title{
+    padding-top: 15px;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.links-items li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.supports{
+    padding-top: 80px;
+}
+.supports-title{
+    padding-top: 15px;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.support-item li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 18px;
+}
+.Contact-Information{
+    padding-top: 80px;
+   
+}
+.Contact-Information-title{
+    padding-top: 15px;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.Contact-Information-description{
+  
+    font-size: 18px; 
+}
+.Contact-Information p{
+    line-height: 30px;
 }
